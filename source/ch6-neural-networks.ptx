@@ -8,8 +8,28 @@
   </introduction>
 
   <!-- include sections -->
-  <section xml:id="sec-what-is-ai-section-change-this">
-    <title>What is AI and How has it Changed?</title>
+    <section xml:id="sec-artificial-neurons">
+    <title>Artificial Neurons</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-inputs-weights-and-biases">
+    <title>Inputs, Weights, and Biases</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-the-power-of-layers">
+    <title>The Power of Layers</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-training-the-network">
+    <title>Training the Network</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-large-language-models">
+    <title>Large Language Models (LLMs)</title>
     <p>Content for the section.</p>
   </section>
 
