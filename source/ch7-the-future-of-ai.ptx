@@ -8,9 +8,75 @@
   </introduction>
 
   <!-- include sections -->
-  <section xml:id="sec-algorithmic-bias-and-echo-chambers">
+<section xml:id="sec-algorithmic-bias-and-echo-chambers">
     <title>Algorithmic Bias and Echo Chambers</title>
-    <p>Content for the section.</p>
+
+    <p>
+      To anticipate, prevent, and mitigate undesirable downstream consequences,
+      it is critical that we understand when and how harm might be introduced
+      throughout the machine learning life cycle. As the authors of
+      <title>A People's Guide to AI</title> note, <q>The consequences of AI
+      affect everyone, but especially traditionally disadvantaged communities
+      like low-income groups and people of color.</q> However, these are
+      precisely the communities least included in conversations about the
+      technology. This section describes how these issues arise, their relevance
+      to particular applications, and the different mitigations they motivate.
+    </p>
+
+    <p>
+      <term>Historical bias</term><idx>historical bias</idx> arises even when the
+      data used to train a model reflects the world as it is or as it was. Even if
+      the data is perfectly measured and sampled, the resulting model can still
+      produce harmful outcomes. Such a system, even if it accurately reflects the
+      world, can still inflict harm on a population. Considerations of historical
+      bias often involve evaluating the <term>representational harm</term><idx>representational harm</idx>
+      (such as reinforcing a stereotype) to a particular group. If a hiring
+      algorithm is trained on historical employment data that reflects past
+      discriminatory practices, it will then learn to copy those patterns
+      without taking into account whether it is right or wrong.
+    </p>
+
+    <p>
+      Historical bias is not limited to hiring. It can also appear in seemingly
+      neutral algorithmic processes, such as redistricting. A study on
+      algorithmic redistricting in Alabama and Michigan examined four different
+      <q>neutral</q> algorithms. All four plans provided fewer districts where
+      Black voters would be expected to decide the election's outcome. These
+      plans underperformed relative to both the proportion of Black people in
+      their populations and the number of Black opportunity districts in the
+      plans actually enacted by their state legislatures.
+    </p>
+
+    <p>
+      Bias can also become embedded in the language models that power many AI
+      applications. <term>Word embeddings</term><idx>word embedding</idx> are
+      learned vector representations of words that encode semantic meaning, and
+      are widely used for <term>natural language processing</term>
+      (<term>NLP</term>)<idx>natural language processing</idx><idx>NLP</idx>
+      applications. Recent research has shown that word embeddings, which are
+      learned from large corpora of text (e.g., Google News, web pages,
+      Wikipedia), reflect human biases. One such study demonstrates that word
+      embeddings reflect real-world biases against women and ethnic
+      minorities, and that an embedding model trained on data from a particular
+      decade reflects those biases. For example, gendered occupation words like
+      <q>nurse</q> or <q>engineer</q> are highly associated with words that
+      represent women or men, respectively. A range of NLP applications (e.g.,
+      chatbots, machine translation, speech recognition) are built using these
+      types of word embeddings, and as a result, can encode and reinforce
+      harmful stereotypes. These models do not simply mirror bias, but instead,
+      they normalize it. They increasingly influence user perceptions and
+      decision-making processes.
+    </p>
+
+    <p>
+      Ultimately, these examples illustrate that bias is not a single problem to
+      be solved, but a recurring challenge that arises throughout the AI
+      lifecycle—from the data collected to the models built to the way the
+      models are interacted with. Recognizing these sources of harm is the first
+      step towards mitigation. Even after identifying bias, it remains
+      difficult to understand how AI systems make their decisions.
+    </p>
+
   </section>
 
   <section xml:id="sec-the-black-box-problem">
