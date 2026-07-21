@@ -8,8 +8,28 @@
   </introduction>
 
   <!-- include sections -->
-  <section xml:id="sec-machine-learning-change-this">
-    <title>Machine Learning</title>
+  <section xml:id="sec-an-overview">
+    <title>An Overview</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-supervised-learning">
+    <title>Supervised Learning</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-unsupervised-learning">
+    <title>Unsupervised Learning</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-reinforcement-learning">
+    <title>Reinforcement Learning</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-evaluating-success">
+    <title>Evaluating Success</title>
     <p>Content for the section.</p>
   </section>
 
