@@ -116,7 +116,7 @@
   <section xml:id="sec-unsupervised-learning">
     <title>Unsupervised Learning</title>
 
-    <subsection xml:id="subsec-what is-unsupervised-learning">
+    <subsection xml:id="subsec-what-is-unsupervised-learning">
       <title>What is unsupervised learning?</title>
         <p>
             Unlike supervised learning, <term>unsupervised learning</term><idx><h>unsupervised learning</h></idx> 
