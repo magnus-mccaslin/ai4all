@@ -57,44 +57,33 @@
     
 
     <subsection xml:id="subsec-unsupervised-tasks">
-        <title>Common Unsupervised Learning Tasks</title>
+      <title>Common Unsupervised Learning Tasks</title>
 
-        <p>
-            Unsupervised learning problems generally fall into three main functional categories:
-        </p>
+      <p>
+          Unsupervised learning problems generally fall into three main functional categories:
+      </p>
 
-        <p>
-            <dl>
-                <li>
-                    <title><term>Clustering</term></title>
-                    <p>
-                        Clustering algorithms group together samples that exhibit similar traits. The goal is to discover 
-                        a natural partitioning of the dataset that highlights underlying structure. For instance, an algorithm 
-                        given a collection of untagged photos of dogs can analyze visual likenesses and automatically group 
-                        similar dog images together.
-                    </p>
-                </li>
-                <li>
-                    <title><term>Density Estimation</term></title>
-                    <p>
-                        Density estimation aims to model the underlying probability distribution of the input data itself. 
-                        Because the algorithm focuses purely on the distribution of input features without needing target values, 
-                        it operates as a purely unsupervised task. Once trained, the model can estimate the probability of 
-                        encountering new data points or generate brand-new synthetic samples from the learned distribution.
-                    </p>
-                </li>
-                <li>
-                    <title><term>Dimensionality Reduction</term></title>
-                    <p>
-                        Dimensionality reduction re-represents complex data using fewer variables or features while preserving 
-                        its most critical information. This technique is particularly valuable for visualizing and compressing 
-                        <term>high-dimensional data</term><idx>high-dimensional data</idx>—datasets containing a large number 
-                        of attributes relative to the overall number of samples.
-                    </p>
-                </li>
-            </dl>
-        </p>
-    </subsection>
+      <p>
+          <term>Clustering</term><idx>clustering</idx> algorithms group together samples that exhibit similar traits. 
+          The goal is to discover a natural partitioning of the dataset that highlights underlying structure. For instance, 
+          an algorithm given a collection of untagged photos of dogs can analyze visual likenesses and automatically group 
+          similar dog images together.
+      </p>
+
+      <p>
+          <term>Density estimation</term><idx>density estimation</idx> aims to model the underlying probability 
+          distribution of the input data itself. Because the algorithm focuses purely on the distribution of input features 
+          without needing target values, it operates as a purely unsupervised task. Once trained, the model can estimate 
+          the probability of encountering new data points or generate brand-new synthetic samples from the learned distribution.
+      </p>
+
+      <p>
+          <term>Dimensionality reduction</term><idx>dimensionality reduction</idx> re-represents complex data using 
+          fewer variables or features while preserving its most critical information. This technique is particularly 
+          valuable for visualizing and compressing <term>high-dimensional data</term><idx>high-dimensional data</idx>—datasets 
+          containing a large number of attributes relative to the overall number of samples.
+      </p>
+</subsection>
 
     <subsection xml:id="subsec-unsupervised-applications">
         <title>Applications of Unsupervised Learning</title>
