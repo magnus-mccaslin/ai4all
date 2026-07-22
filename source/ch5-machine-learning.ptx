@@ -21,7 +21,8 @@
   <section xml:id="sec-unsupervised-learning">
     <title>Unsupervised Learning</title>
 
-    <introduction xml:id="intro-unsupervised-learning">
+    <subsection xml:id="subsec-what is-unsupervised-learning">
+      <title>What is unsupervised learning?</title>
         <p>
             Unlike supervised learning, <term>unsupervised learning</term><idx><h>unsupervised learning</h></idx> 
             does not involve learning a mapping function based on paired input-output examples. Instead, the 
@@ -52,7 +53,7 @@
         automatically discover the representations needed to analyze raw data. Without receiving explicit targets, 
         unsupervised methods organize complex information into meaningful structures.
         </p>
-    </introduction>
+    </subsection>
 
     
 
