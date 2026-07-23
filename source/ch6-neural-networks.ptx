@@ -42,7 +42,7 @@
         
         <figure xml:id="fig-handwritten-100-digits">
           <caption>A grid of 100 handwritten digits.</caption>
-          <image source="handwritten-100-digits.png">
+          <image source="handwritten-digits-100.png">
             <shortdescription>A grid of 100 handwritten digits.</shortdescription>
 
             <description>
