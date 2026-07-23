@@ -16,10 +16,8 @@
             The human visual system is one of the wonders of the world. Consider the following sequence of handwritten digits:
         </p>
 
-        <figure xml:id="fig-handwritten-digits">
-            <caption>
-                A sequence of handwritten digits illustrating visual pattern recognition.
-            </caption>
+        <figure xml:id="fig-handwritten-6-digits">
+            <caption>A sequence of six handwritten digits.</caption>
 
             <image source="handwritten-digits.png">
                 <shortdescription>
@@ -41,6 +39,19 @@
         <p>
             The difficulty of visual pattern recognition becomes apparent if you attempt to write a computer program to recognize digits like those above. What seems easy when we do it ourselves suddenly becomes extremely difficult. Simple intuitions about how we recognize shapes – <q>a 9 has a loop at the top, and a vertical stroke in the bottom right</q> – turn out to be not so simple to express algorithmically. When you try to make such rules precise, you quickly get lost in a morass of exceptions and caveats and special cases. It seems hopeless.
         </p>
+        
+        <figure xml:id="fig-handwritten-100-digits">
+          <caption>A grid of 100 handwritten digits.</caption>
+          <image source="handwritten-100-digits.png">
+            <shortdescription>A grid of 100 handwritten digits.</shortdescription>
+
+            <description>
+              <p>
+                A 10x10 grid displaying 100 handwritten numerical digits, each varying in style, thickness, and slant, showcasing the diversity of human handwriting.
+              </p>
+            </description>
+          </image>
+        </figure>
 
         <p>
             <term>Artificial neural networks</term><idx><h>artificial neural networks</h></idx> (ANNs) approach the problem in a different way. The idea is to take a large number of examples, known as training examples (as seen above), and then develop a system which can learn from those training examples. In other words, the neural network uses the examples to automatically infer rules. To understand how this works, we must look at the basic neuron models.
@@ -60,24 +71,6 @@
         <p>
             To get started, we'll explain a type of artificial neuron called a <term>perceptron</term><idx><h>perceptron</h></idx>. Perceptrons were developed in the 1950s and 1960s by the scientist Frank Rosenblatt, inspired by earlier work by Warren McCulloch and Walter Pitts.
         </p>
-
-        <figure xml:id="fig-perceptron-diagram">
-            <caption>
-                A standard perceptron model with weighted binary inputs leading to a single binary output.
-            </caption>
-
-            <image source="perceptron-diagram.png">
-                <shortdescription>
-                    Diagram of a perceptron with multiple inputs, weights, a bias, and one output.
-                </shortdescription>
-
-                <description>
-                    <p>
-                        A diagram showing binary inputs entering from the left, each multiplied by an associated weight value. These values lead into a central neuron node containing the bias parameter, which outputs a single binary value (0 or 1) on the right.
-                    </p>
-                </description>
-            </image>
-        </figure>
 
         <p>
             A way you can think about the perceptron is that it's a device that makes decisions by weighing up evidence. A perceptron takes several binary inputs and produces a single binary output (either a 0 or a 1). To determine this output, Rosenblatt introduced two key parameters:
