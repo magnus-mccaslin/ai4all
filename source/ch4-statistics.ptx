@@ -26,7 +26,7 @@
   <section xml:id="sec-the-data-split">
     <title>The Data Split</title>
 
-    <introduction>
+    <p>
         <p>
             Before any analysis or learning happens, data must first be collected. Compiling a data set involves identifying a target population (of people or things), as well as defining and measuring features and labels from it. Typically, it is not feasible to include the entire target population, and instead, features and labels are sampled from a subset of it. Often, machine learning practitioners use existing data sets rather than going through the data collection process.
         </p>
@@ -48,7 +48,7 @@
                 For the loan-approval system, preprocessing might involve addressing missing data (e.g., imputing missing credit history values via interpolation), simplifying the feature space (e.g., grouping occupations in broader categories like <q>physician</q> rather than encoding detailed specialties), or normalizing continuous measurements (e.g., scaling income so it lies on a 0-to-1 scale). If a resulting data set included 1,000 examples (e.g., data collected from 1,000 people), 600 might be allocated for training, 100 as a validation set during training, and 300 for postdevelopment testing.
             </p>
         </assemblage>
-    </introduction>
+    </p>
 
     <subsection xml:id="ssec-model-building-and-validation">
         <title>Model Building and Validation</title>
